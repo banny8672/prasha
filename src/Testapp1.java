@@ -18,6 +18,7 @@ public class Testapp1 extends JPanel implements ActionListener{
 			JButton button = new JButton("Open");
 			button.addActionListener(this);
 			add(button);
+			System.out.println("first");
 		}
 		
 		public static void main(String args[])
